@@ -1,0 +1,5 @@
+og/
+__pycache__/
+.venv/
+.codex/
+.agents/
