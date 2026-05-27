@@ -1,9 +1,35 @@
 # Toolbox
 
-This repository uses two small scripts to maintain the paper list:
+This repository uses three small scripts to maintain the paper list:
 
+- `process_dblp.py`: parse DBLP pages and filter candidate graph anomaly/fraud papers.
 - `fetch_bib.py`: fetch BibTeX entries from Google Scholar.
 - `compile.py`: compile `README.md` from `TEMPLATE.md` and files under `bibs/`.
+
+## Process DBLP
+
+Use `process_dblp.py` to scan a DBLP proceedings page or a saved DBLP HTML file and print candidate papers whose titles contain `graph` and either `anomaly` or `fraud`.
+
+From a DBLP URL:
+
+```bash
+python process_dblp.py --path "https://dblp.org/db/conf/aaai/aaai2026.html"
+```
+
+From a local HTML file:
+
+```bash
+python process_dblp.py --path path/to/dblp-page.html
+```
+
+Example output:
+
+```text
+filtered: Benchmarking fraud detectors on private graph data
+filtered: Hlsad: Hodge laplacian-based simplicial anomaly detection
+```
+
+Use these titles as input for `fetch_bib.py`.
 
 ## Fetch BibTeX
 
@@ -20,6 +46,20 @@ fetch-bib> HLSAD: Hodge Laplacian-based Simplicial Anomaly Detection
 ```
 
 The script searches Google Scholar, fetches the BibTeX for the selected result, and prints it to stdout. Type `q`, `quit`, or `exit` to stop.
+
+### Google Scholar Cookies
+
+`fetch_bib.py` can send Google Scholar cookies through the `COOKIE` environment variable. This helps when Google Scholar asks for human verification.
+
+Create a local `.env` file:
+
+```dotenv
+COOKIE="your_google_scholar_cookie_string"
+```
+
+One way to get a temporary cookie is to open an incognito/private browser window, visit any Google Scholar secondary page, pass the human verification, and copy the request cookie from the browser developer tools. You can also use cookies from a logged-in browser session.
+
+Do not commit `.env` or cookie values.
 
 ### Clipboard Mode
 
@@ -133,19 +173,25 @@ python compile.py \
 
 ## Typical Workflow
 
-1. Fetch and append BibTeX entries:
+1. Find candidate papers from DBLP:
+
+```bash
+python process_dblp.py --path "https://dblp.org/db/conf/kdd/kdd2025-1.html"
+```
+
+2. Fetch and append BibTeX entries:
 
 ```bash
 python fetch_bib.py --clipboard --output_file bibs/kdd-25.bib
 ```
 
-2. Compile the paper list:
+3. Compile the paper list:
 
 ```bash
 python compile.py
 ```
 
-3. Check the result:
+4. Check the result:
 
 ```bash
 python compile.py --check

@@ -1,4 +1,5 @@
 import argparse
+import os
 import shutil
 import subprocess
 import sys
@@ -6,10 +7,14 @@ from pathlib import Path
 from urllib.parse import quote_plus
 
 import bs4
+import dotenv
 import requests
 
+dotenv.load_dotenv()
+
 HEADER = {
-    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36",
+    "Cookie": os.getenv("COOKIE"),
 }
 SEARCH_RESULT_LIMIT = 5
 
@@ -120,7 +125,9 @@ def select_paper(papers: list[dict[str, str]]) -> dict[str, str]:
 
     while True:
         try:
-            choice = input(f"Select [1-{len(candidates)}], Enter for 1, or s to skip: ").strip()
+            choice = input(
+                f"Select [1-{len(candidates)}], Enter for 1, or s to skip: "
+            ).strip()
         except EOFError:
             print()
             return candidates[0]
@@ -156,7 +163,9 @@ def append_bibtex(output_file: Path, bibtex: str) -> None:
     if output_file.exists() and output_file.stat().st_size > 0:
         existing = output_file.read_text(encoding="utf-8")
         separator = "\n\n" if existing.endswith("\n") else "\n\n"
-        output_file.write_text(existing.rstrip() + separator + bibtex + "\n", encoding="utf-8")
+        output_file.write_text(
+            existing.rstrip() + separator + bibtex + "\n", encoding="utf-8"
+        )
     else:
         output_file.write_text(bibtex + "\n", encoding="utf-8")
 
@@ -165,7 +174,9 @@ def iter_queries(use_clipboard: bool):
     if use_clipboard:
         print("Clipboard mode. Press Enter to query clipboard text. Type q to quit.")
     else:
-        print("Interactive mode. Paste or type one paper title per query. Type q to quit.")
+        print(
+            "Interactive mode. Paste or type one paper title per query. Type q to quit."
+        )
 
     while True:
         try:
