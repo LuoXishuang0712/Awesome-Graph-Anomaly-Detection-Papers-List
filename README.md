@@ -2,10 +2,97 @@
 
 
 ## [Contents](#contents)
+  - [KDD-2026](#kdd-2026)
+  - [WWW-2026](#www-2026)
   - [AAAI-2026](#aaai-2026)
   - [KDD-2025](#kdd-2025)
 
+### [KDD-2026](#contents)
 
+1. **Balanced Anomaly-guided Ego-graph Diffusion Model for Inductive Graph Anomaly Detection** 
+
+    *Chunyu Wei, Siyuan He, Yu Wang, Yueguo Chen, Yunhai Wang, Bing Bai, Yidong Zhang, Yong Xie, Shunming Zhang, Fei Wang*
+
+  
+### [WWW-2026](#contents)
+
+1. **A Graph Foundation Model for Unified Anomaly Detection** 
+
+    *Renda Han, Xiaobao Wang, Luzhi Wang, Wenxin Zhang, Guangzhen Yao, Hongxiang Liang*
+
+1. **Integrated Mixture of Neighborhood and Community Experts for Graph-Based Fraud Detection** 
+
+    *Zhizhi Yu, Di Jin, Dongxiao He, Wenhuan Lu, Jianguo Wei*
+
+1. **STG-DGR: Fraud Detection on Streaming Transaction Graphs with Diffusion-based Generative Replay** 
+
+    *Rui Ou, Kun Zhu, Nana Zhang, Jiangtong Li, Chaochao Chen, Changjun Jiang*
+
+1. **Unsupervised Subgraph Anomaly Detection Based on Pattern Collaboration** 
+
+    *Jiayang Sun, Shenghao Liu, Xianjun Deng, Wei Xiang, Meng Luo, Qiankun Zhang, Dandan Zheng*
+
+1. **DP-DGAD: A generalist dynamic graph anomaly detector with dynamic prototypes** 
+
+    *Jialun Zheng, Jie Liu, Jiannong Cao, Xiao Wang, Hanchen Yang, Yankai Chen*
+
+1. **Anomaly Detection of Interaction Behaviors in Streaming Graphs** 
+
+    *Shuai Ren, Fan Zhang, Bolin Wang, Xiang Zhao, Zhihong Tian*
+
+1. **Revisiting Graph-Level Anomaly Detection: From Partially to Fully Unsupervised Learning** 
+
+    *Zhenyu Yang, Ge Zhang, Shan Xue, Xiaoxiao Ma, Jian Yang, Hao Peng, Amin Beheshti, Jia Wu*
+
+1. **PAGE: Progressive Anomaly Generation Network for Semi-supervised Graph Anomaly Detection** 
+
+    *Ting Guo, Dongyu Pei, Gangzhu Qiao, Kaixuan Yao, Da Wang*
+
+1. **Cross-Type Semantic Alignment for Multi-Type Anomaly Detection in Heterogeneous Graphs** 
+
+    *Di Jin, Xiao Huang, Xiaobao Wang, Fengyu Yan, Luzhi Wang, Hongxiang Liang*
+
+1. **Generalizable Graph-level Anomaly Detection via Prompted Anomaly Expansion and Normality Extraction** 
+
+    *Ge Zhang, Jiapei Chen, Guohao Sun, Xiu Fang, Zhenyu Yang, Xixun Lin, Liang Yang*
+
+1. **Mitigating Homophily Disparity in Graph Anomaly Detection: A Scalable and Adaptive Approach** 
+
+    *Yunhui Liu, Qizhuo Xie, Yinfeng Chen, Xudong Jin, Tao Zheng, Bin Chong, Tieke He*
+
+1. **AC 2 L-GAD: Active Counterfactual Contrastive Learning for Graph Anomaly Detection** 
+
+    *Kamal Berahmand, Saman Forouzandeh, Mehrnoush Mohammadi, Parham Moradi, Mahdi Jalili*
+
+1. **A Dual-Channel Contrastive Learning Framework for Anomaly Detection in Dynamic Graph Structures** 
+
+    *Runshuo Liu, Chao Li, Zhongying Zhao, Hui Zhou, Qingtian Zeng*
+
+1. **CIFAD: Causal-Invariant Subspace Learning for Few-Shot Anomaly Detection on Dynamic Relational Graphs** 
+
+    *Yu Xiao, Haolong Xiang, Xiaolong Xu, Lianyong Qi, Xuyun Zhang, Wei Fan, Wanchun Dou*
+
+1. **iQ-Guard: An Effective and Noise-Resistant Framework for Graph Fraud Detection on iQIYI Platform** 
+
+    *Yuting Huang, Ziquan Fang, Zhengjie Zhou, Tinghui Luo, Lu Chen, Surun Ji, Huimei Zheng, Mingfan Lu, Fangshu Chen, Yunjun Gao*
+
+1. **Multi-Modal Enhanced Graph Transfer Learning for Digital Finance Fraud Detection** 
+
+    *Yuxin Liu, Stephen Chan, Jeffrey Chu, Yuanyuan Zhang, Chenguang Yang, Zihao Wang, Yulia R Gel, Yuzhou Chen*
+
+1. **Tabular foundation models are strong graph anomaly detectors** 
+
+    *Yunhui Liu, Tieke He, Yongchao Liu, Can Yi, Hong Jin, Chuntao Hong*
+
+1. **Bridging cognitive neuroscience and graph intelligence: Hippocampus-inspired multi-view hypergraph learning for web finance fraud** 
+
+    *Rongkun Cui, Nana Zhang, Kun Zhu, Qi Zhang*
+
+1. **GRAND: A Robust Diffusion Framework for Multi-Granularity Graph Anomaly Detection in Web Platforms** 
+
+    *Maolin Wang, Beining Bao, Hongyu Chen, Zichun Liu, Lang Fu, Jun Chu, Langzhang Liang, Zenglin Xu*
+
+  
 ### [AAAI-2026](#contents)
 
 1. **BugSweeper: Function-Level Detection of Smart Contract Vulnerabilities Using Graph Neural Networks** 
