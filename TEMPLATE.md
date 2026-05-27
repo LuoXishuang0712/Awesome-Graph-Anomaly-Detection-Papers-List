@@ -4,6 +4,10 @@
 ## [Contents](#contents)
   - {contents}
 
+{icml-26:ICML-2026}
+  
+{iclr-26:ICLR-2026}
+  
 {kdd-26:KDD-2026}
   
 {www-26:WWW-2026}

@@ -138,6 +138,7 @@ The template uses two kinds of placeholders:
 
 - `{contents}` is replaced by a Markdown table of contents.
 - `{kdd-25:KDD-2025}` reads `bibs/kdd-25.bib` and renders a section titled `KDD-2025`.
+- If `bibs/kdd-25.bib` does not exist, `compile.py` falls back to `bibs/kdd-25.md` and embeds that Markdown directly under the section heading.
 
 To add another section, create a matching bib file and add a placeholder:
 
@@ -149,6 +150,26 @@ Then create:
 
 ```text
 bibs/www-25.bib
+```
+
+For conferences that are not available on Google Scholar yet, create a Markdown file instead:
+
+```markdown
+{iclr-26:ICLR-2026}
+```
+
+Then create:
+
+```text
+bibs/iclr-26.md
+```
+
+The `.md` file should already contain the rendered paper list body, for example:
+
+```markdown
+1. Paper Title
+
+    *Author One, Author Two*
 ```
 
 ### Check Mode

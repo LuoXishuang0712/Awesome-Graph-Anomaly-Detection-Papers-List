@@ -2,11 +2,87 @@
 
 
 ## [Contents](#contents)
+  - [ICML-2026](#icml-2026)
+  - [ICLR-2026](#iclr-2026)
   - [KDD-2026](#kdd-2026)
   - [WWW-2026](#www-2026)
   - [AAAI-2026](#aaai-2026)
   - [KDD-2025](#kdd-2025)
 
+### [ICML-2026](#contents)
+
+1. **Normality Calibration in Semi-supervised Graph Anomaly Detection**
+
+    *Guolei Zeng, Hezhe Qiao, Guoguo Ai, Jinsong Guo, Guansong Pang*
+
+
+1. **Generalist Graph Anomaly Detection via Prototype-Based Distillation**
+
+    *Yiming Xu, Zihan Chen, Zhen Peng, Song Wang, Bin Shi, Bo Dong, Chao Shen*
+
+
+1. **Rethinking Feature Alignment in Generalist Graph Anomaly Detection: A Relational Fingerprint-based Approach**
+
+    *Yujing Liu, Yixin Liu, Yu Zheng, Alan Liew, Xiaofeng Cao, Shirui Pan*
+
+
+1. **Learning Discriminative and Generalizable Anomaly Detector for Dynamic Graph with Limited Supervision**
+
+    *Yuxing Tian, Yiyan Qi, Fengran Mo, Weixu Zhang, Jian Guo, Jian-Yun Nie*
+
+
+1. **HSMAD: Heterophily-Driven Spectral and Manifold Learning for Graph Anomaly Detection**
+
+    *Chen Zhu, YAYING ZHANG*
+
+
+1. **Modeling Spectral Energy Shifts in Spatio-Temporal Graph Anomaly Detection**
+
+    *Yilin Liu, Hongchao Zhang, Ahmad Taha, Taylor T Johnson, Meiyi Ma*
+
+
+1. **MV-FGAD: Towards Efficient and Effective Federated Graph Anomaly Detection via Multi-view Learning**
+
+    *Junyi Yan, KE LIANG, Hao Yu, Meng Liu, Hao Tan, Tianrui Liu, Jun-Jie Huang, Xinwang Liu*
+
+
+1. **Learnable Kernel Density Estimation for Graphs and Its Application to Graph-Level Anomaly Detection**
+
+    *Xudong Wang, Ziheng Sun, Chris Ding, Jicong Fan*
+
+  
+### [ICLR-2026](#contents)
+
+1. **Healthcare Insurance Fraud Detection via Continual Fiedler Vector Graph Model**
+
+    *Yehan Zhang, Huaidong Zhang, Xuandi Luo, Shengfeng He*
+
+
+1. **Towards Anomaly-Aware Pre-Training and Fine-Tuning for Graph Anomaly Detection**
+
+    *Yunhui Liu, Jiashun Cheng, Yiqing Lin, Qizhuo Xie, Jia Li, Fugee Tsung, Hongzhi Yin, Tao Zheng, Jianhua Zhao, Tieke He*
+
+
+1. **OwlEye: Zero-Shot Learner for Cross-Domain Graph Data Anomaly Detection**
+
+    *Lecheng Zheng, Dongqi Fu, Zihao Li, Jingrui He*
+
+
+1. **Dynamic Multi-sample Mixup with Gradient Exploration for Open-set Graph Anomaly Detection**
+
+    *Caiyang Yu, Wei Ju, Haixin Wang, Yifan Wang, Ziyue Qiao*
+
+
+1. **DR-GGAD: Dual Residual Centering for Mitigating Anomaly Non‑Discriminativity in Generalist Graph Anomaly Detection**
+
+    *Changlong Fu, Zhenli He, Xiong Zhang, Cheng Xie, Xin Jin, Yun Yang*
+
+
+1. **Topological Anomaly Quantification for Semi-supervised Graph Anomaly Detection**
+
+    *Ting Guo, Yangrui Fan, Caixia Cui, Jiye Liang, Jiao Zhao, Da Wang*
+
+  
 ### [KDD-2026](#contents)
 
 1. **Balanced Anomaly-guided Ego-graph Diffusion Model for Inductive Graph Anomaly Detection** 

@@ -160,11 +160,19 @@ def format_entry(entry: BibEntry) -> str:
 
 def format_section(section_id: str, section_title: str, bib_dir: Path) -> str:
     bib_path = bib_dir / f"{section_id}.bib"
-    if not bib_path.exists():
-        raise FileNotFoundError(f"Missing BibTeX file for {{{section_id}:{section_title}}}: {bib_path}")
+    md_path = bib_dir / f"{section_id}.md"
 
-    entries = parse_bibtex(bib_path.read_text(encoding="utf-8"))
-    rendered_entries = "\n\n".join(format_entry(entry) for entry in entries)
+    if bib_path.exists():
+        entries = parse_bibtex(bib_path.read_text(encoding="utf-8"))
+        rendered_entries = "\n\n".join(format_entry(entry) for entry in entries)
+    elif md_path.exists():
+        rendered_entries = md_path.read_text(encoding="utf-8").strip()
+    else:
+        raise FileNotFoundError(
+            f"Missing source file for {{{section_id}:{section_title}}}: "
+            f"expected {bib_path} or {md_path}"
+        )
+
     if rendered_entries:
         rendered_entries += "\n"
 
