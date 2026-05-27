@@ -2,7 +2,67 @@
 
 
 ## [Contents](#contents)
+  - [AAAI-2026](#aaai-2026)
   - [KDD-2025](#kdd-2025)
+
+
+### [AAAI-2026](#contents)
+
+1. **BugSweeper: Function-Level Detection of Smart Contract Vulnerabilities Using Graph Neural Networks** 
+
+    *Uisang Lee, Changhoon Chung, Junmo Lee, Soo-Mook Moon*
+
+1. **BAG: Benchmarking Anomaly Detection on Dynamic Graphs** 
+
+    *Fengrui Hua, Yiyan Qi, Zikai Wei, Yuxing Tian, Chengjin Xu, Xiaojun Wu, Jia Li, Jian Guo*
+
+1. **FreqTAD: Multi-scale Frequency Encoding and Time-Frequency Attention for Anomaly Detection in Dynamic Graphs** 
+
+    *Chao Li, Runshuo Liu, Zhongying Zhao, Hui Zhou, Qingtian Zeng*
+
+1. **Exploring Domain Generalization and Subpopulation Shift for Generalizable Graph-Level Anomaly Detection** 
+
+    *Xiaoxiang Li, Xihe Xie, Hai Wan, Xibin Zhao*
+
+1. **Dgp: A dual-granularity prompting framework for fraud detection with graph-enhanced llms** 
+
+    *Yuan Li, Jun Hu, Bryan Hooi, Bingsheng He, Cheng Chen*
+
+1. **Beyond Local Patterns: Multiscale Inconsistency Learning for Graph Anomaly Detection** 
+
+    *Jie Lian, Zhihao Wu, Jielong Lu, Jiajun Yu, Qianqian Shen, Haishuai Wang*
+
+1. **Multi-dimensional Adaptive Mix-hop Contextual Learning Framework for Universal Graph Anomaly Detection** 
+
+    *Zhaowei Liu, Leilei Jiang, Haitao Yang*
+
+1. **Targeting Borderline Fraudsters: Multi-View Hypergraph Fraud Detection with LLM-Guided Contrastive Learning** 
+
+    *Rui Ou, Kun Zhu, Nana Zhang, Jiangtong Li, Chaochao Chen, Yuhua Xu, Changjun Jiang*
+
+1. **Binary Message Passing for Generalizable Semi-Supervised Graph Anomaly Detection** 
+
+    *Jingyuan Zhang, Xin Wang, Lei Yu, Li Yang, Fengjun Zhang*
+
+1. **Towards Multiple Missing Values-resistant Unsupervised Graph Anomaly Detection** 
+
+    *Jiazhen Chen, Xiuqin Liang, Sichao Fu, Zheng Ma, Weihua Ou*
+
+1. **Disentangled Generation-Based Prototypical Alignment for Few-Shot Unsupervised Domain Adaptation in Graph-Level Anomaly Detection** 
+
+    *Zhibin Ni, Chenghao Zhang, Hai Wan, Xibin Zhao*
+
+1. **Correcting false alarms from unseen: Adapting graph anomaly detectors at test time** 
+
+    *Junjun Pan, Yixin Liu, Chuan Zhou, Fei Xiong, Alan Wee-Chung Liew, Shirui Pan*
+
+1. **SFGA: Similarity-Constrained Fusion Learning for Unsupervised Anomaly Detection in Multiplex Graphs** 
+
+    *Huiliang Zhai, Xiangyi Teng, Jing Liu*
+
+1. **Towards Automated Self-Supervised Learning for Truly Unsupervised Graph Anomaly Detection (Abstract Reprint)** 
+
+    *Zhong Li, Yuhang Wang, Matthijs van Leeuwen*
 
 
 ### [KDD-2025](#contents)

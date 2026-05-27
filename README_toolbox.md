@@ -5,6 +5,7 @@ This repository uses three small scripts to maintain the paper list:
 - `process_dblp.py`: parse DBLP pages and filter candidate graph anomaly/fraud papers.
 - `fetch_bib.py`: fetch BibTeX entries from Google Scholar.
 - `compile.py`: compile `README.md` from `TEMPLATE.md` and files under `bibs/`.
+- `.githooks/pre-commit`: warn before commits that may leave the generated list stale.
 
 ## Process DBLP
 
@@ -170,6 +171,22 @@ python compile.py \
   --bib-dir bibs \
   --output README.md
 ```
+
+## Git Hook
+
+The repository includes a pre-commit hook at `.githooks/pre-commit`.
+
+Enable it in a clone with:
+
+```bash
+git config core.hooksPath .githooks
+```
+
+The hook checks staged files before each commit:
+
+- If files under `bibs/*.bib` are staged but `TEMPLATE.md` is not staged, it asks whether you remembered to add or update the template section.
+- If `TEMPLATE.md` is staged but `README.md` is not staged, it asks whether to run `python compile.py` and stage `README.md`.
+- If `README.md` has unstaged changes, it will not overwrite them automatically; run `python compile.py`, review the result, and stage `README.md` manually.
 
 ## Typical Workflow
 

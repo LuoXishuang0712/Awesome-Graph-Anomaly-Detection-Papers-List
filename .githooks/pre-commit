@@ -1,0 +1,66 @@
+#!/usr/bin/env sh
+set -eu
+
+repo_root="$(git rev-parse --show-toplevel)"
+cd "$repo_root"
+
+staged_files="$(git diff --cached --name-only)"
+
+has_staged_file() {
+    printf '%s\n' "$staged_files" | grep -qx "$1"
+}
+
+has_staged_bib_change() {
+    printf '%s\n' "$staged_files" | grep -Eq '^bibs/.*\.bib$'
+}
+
+ask_yes_no() {
+    prompt="$1"
+    default="${2:-n}"
+
+    if [ ! -t 0 ]; then
+        printf '%s\n' "$prompt" >&2
+        printf 'No interactive terminal is available; aborting commit.\n' >&2
+        exit 1
+    fi
+
+    if [ "$default" = "y" ]; then
+        suffix="[Y/n]"
+    else
+        suffix="[y/N]"
+    fi
+
+    printf '%s %s ' "$prompt" "$suffix" >&2
+    read -r answer
+    answer="$(printf '%s' "$answer" | tr '[:upper:]' '[:lower:]')"
+
+    if [ -z "$answer" ]; then
+        answer="$default"
+    fi
+
+    [ "$answer" = "y" ] || [ "$answer" = "yes" ]
+}
+
+if has_staged_bib_change && ! has_staged_file "TEMPLATE.md"; then
+    if ! ask_yes_no "Bib files are staged, but TEMPLATE.md is not. Did you remember to add/update the template section? Continue commit?" "n"; then
+        printf 'Commit aborted. Update/stage TEMPLATE.md, or commit again and confirm.\n' >&2
+        exit 1
+    fi
+fi
+
+if has_staged_file "TEMPLATE.md" && ! has_staged_file "README.md"; then
+    if ! git diff --quiet -- README.md; then
+        printf 'TEMPLATE.md is staged, but README.md has unstaged changes.\n' >&2
+        printf 'Not running compile.py because it would overwrite the working tree README.md.\n' >&2
+        printf 'Run python compile.py manually, review README.md, then git add README.md.\n' >&2
+        exit 1
+    fi
+
+    if ask_yes_no "TEMPLATE.md is staged, but README.md is not. Run python compile.py and stage README.md now?" "y"; then
+        python compile.py
+        git add README.md
+    else
+        printf 'Commit aborted. Run python compile.py and stage README.md, or commit again and confirm the intended state.\n' >&2
+        exit 1
+    fi
+fi
