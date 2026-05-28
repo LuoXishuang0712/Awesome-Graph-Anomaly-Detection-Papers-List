@@ -15,6 +15,7 @@ DEFAULT_TEMPLATE = ROOT / "TEMPLATE.md"
 DEFAULT_OUTPUT = ROOT / "README.md"
 DEFAULT_BIB_DIR = ROOT / "bibs"
 PLACEHOLDER_RE = re.compile(r"\{([A-Za-z0-9_.-]+):([^{}]+)\}")
+SECTION_TITLE_RE = re.compile(r"^([A-Za-z0-9]+)-(\d{4})$")
 
 
 @dataclass(frozen=True)
@@ -183,9 +184,7 @@ def compile_readme(template_path: Path, bib_dir: Path) -> str:
     template = template_path.read_text(encoding="utf-8")
     placeholders = PLACEHOLDER_RE.findall(template)
 
-    contents = "\n  - ".join(
-        f"[{title.strip()}](#{slugify(title.strip())})" for _, title in placeholders
-    )
+    contents = format_contents([title for _, title in placeholders])
 
     output = template.replace("{contents}", contents)
     for section_id, section_title in placeholders:
@@ -195,6 +194,33 @@ def compile_readme(template_path: Path, bib_dir: Path) -> str:
         )
 
     return output.rstrip() + "\n"
+
+
+def parse_section_title(title: str) -> tuple[str, str]:
+    title = title.strip()
+    match = SECTION_TITLE_RE.fullmatch(title)
+    if match is None:
+        raise ValueError(
+            f"Invalid section title {title!r}. Expected format '<conference>-<year>', "
+            "for example 'KDD-2025'."
+        )
+    conference, year = match.groups()
+    return conference, year
+
+
+def format_contents(section_titles: list[str]) -> str:
+    links_by_year: dict[str, list[str]] = {}
+    years: list[str] = []
+
+    for title in section_titles:
+        title = title.strip()
+        _, year = parse_section_title(title)
+        if year not in links_by_year:
+            links_by_year[year] = []
+            years.append(year)
+        links_by_year[year].append(f"[{title}](#{slugify(title)})")
+
+    return "\n  - ".join(" ".join(links_by_year[year]) for year in years)
 
 
 def slugify(title: str) -> str:

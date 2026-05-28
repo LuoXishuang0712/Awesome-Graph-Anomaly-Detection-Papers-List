@@ -2,11 +2,7 @@
 
 
 ## [Contents](#contents)
-  - [ICML-2026](#icml-2026)
-  - [ICLR-2026](#iclr-2026)
-  - [KDD-2026](#kdd-2026)
-  - [WWW-2026](#www-2026)
-  - [AAAI-2026](#aaai-2026)
+  - [ICML-2026](#icml-2026) [ICLR-2026](#iclr-2026) [KDD-2026](#kdd-2026) [WWW-2026](#www-2026) [AAAI-2026](#aaai-2026)
   - [KDD-2025](#kdd-2025)
 
 ### [ICML-2026](#contents)
