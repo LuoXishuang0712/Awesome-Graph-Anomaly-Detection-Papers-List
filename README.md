@@ -2,9 +2,32 @@
 
 
 ## [Contents](#contents)
-  - [ICML-2026](#icml-2026) [ICLR-2026](#iclr-2026) [KDD-2026](#kdd-2026) [WWW-2026](#www-2026) [AAAI-2026](#aaai-2026)
+  - CIKM-2026 NeurIPS-2026 IJCAI-2026 [TKDE-2026](#tkde-2026) [ICML-2026](#icml-2026) [ICLR-2026](#iclr-2026) [KDD-2026](#kdd-2026) [WWW-2026](#www-2026) [AAAI-2026](#aaai-2026)
   - [KDD-2025](#kdd-2025)
 
+### [TKDE-2026](#contents)
+
+1. **Learning from graph-graph relationship: a new perspective on graph-level anomaly detection** 
+
+    *Zhenyu Yang, Ge Zhang, Jia Wu, Jian Yang, Hao Peng, Pietro Li{\`o}*
+
+1. **Defending Attacks on Anti-Fraud Model With Generative Graph Representations** 
+
+    *Jiasheng Wu, Xincheng Wang, Jie Yang, Dawei Cheng, Guang Yang, Bo Wang*
+
+1. **Learning Feature Encoder With Synthetic Anomalies for Weakly Supervised Graph Anomaly Detection** 
+
+    *Yingjie Zhou, Yuqin Xie, Fanxing Liu, Dongjin Song, Ce Zhu, Lingqiao Liu*
+
+1. **Explainable Anomaly Detection in Dynamic Heterogeneous Graphs via Relation Evolution** 
+
+    *Xiaolin Han, Xiurui Hu, Chenhao Ma, Xuequn Shang*
+
+1. **LaGraph: Laplacian-Guided Graph Learning for Time Series Anomaly Detection** 
+
+    *Shicong Zeng, Guoqing Chao, Junquan Wei, Yanwei Yu, Zhijin Wang, Dianhui Chu*
+
+  
 ### [ICML-2026](#contents)
 
 1. **Normality Calibration in Semi-supervised Graph Anomaly Detection**

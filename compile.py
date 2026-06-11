@@ -14,7 +14,7 @@ ROOT = Path(__file__).resolve().parent
 DEFAULT_TEMPLATE = ROOT / "TEMPLATE.md"
 DEFAULT_OUTPUT = ROOT / "README.md"
 DEFAULT_BIB_DIR = ROOT / "bibs"
-PLACEHOLDER_RE = re.compile(r"\{([A-Za-z0-9_.-]+):([^{}]+)\}")
+PLACEHOLDER_RE = re.compile(r"\{([A-Za-z0-9_.-]*):([^{}]+)\}")
 SECTION_TITLE_RE = re.compile(r"^([A-Za-z0-9]+)-(\d{4})$")
 
 
@@ -184,14 +184,18 @@ def compile_readme(template_path: Path, bib_dir: Path) -> str:
     template = template_path.read_text(encoding="utf-8")
     placeholders = PLACEHOLDER_RE.findall(template)
 
-    contents = format_contents([title for _, title in placeholders])
+    contents = format_contents(placeholders)
 
     output = template.replace("{contents}", contents)
     for section_id, section_title in placeholders:
-        output = output.replace(
-            f"{{{section_id}:{section_title}}}",
-            format_section(section_id, section_title.strip(), bib_dir),
-        )
+        placeholder = f"{{{section_id}:{section_title}}}"
+        if section_id:
+            output = output.replace(
+                placeholder,
+                format_section(section_id, section_title.strip(), bib_dir),
+            )
+        else:
+            output = remove_placeholder_line(output, placeholder)
 
     return output.rstrip() + "\n"
 
@@ -208,19 +212,32 @@ def parse_section_title(title: str) -> tuple[str, str]:
     return conference, year
 
 
-def format_contents(section_titles: list[str]) -> str:
+def format_contents(placeholders: list[tuple[str, str]]) -> str:
     links_by_year: dict[str, list[str]] = {}
     years: list[str] = []
 
-    for title in section_titles:
+    for section_id, title in placeholders:
         title = title.strip()
         _, year = parse_section_title(title)
         if year not in links_by_year:
             links_by_year[year] = []
             years.append(year)
-        links_by_year[year].append(f"[{title}](#{slugify(title)})")
+        if section_id:
+            links_by_year[year].append(f"[{title}](#{slugify(title)})")
+        else:
+            links_by_year[year].append(title)
 
     return "\n  - ".join(" ".join(links_by_year[year]) for year in years)
+
+
+def remove_placeholder_line(text: str, placeholder: str) -> str:
+    line_pattern = re.compile(
+        rf"(?m)^[ \t]*{re.escape(placeholder)}[ \t]*\r?\n(?:[ \t]*\r?\n)?"
+    )
+    updated = line_pattern.sub("", text)
+    if updated != text:
+        return updated
+    return text.replace(placeholder, "")
 
 
 def slugify(title: str) -> str:
