@@ -1,5 +1,8 @@
 # Graph Anomaly Detection Reading List
 
+>
+> For contributor: Please use [toolbox](./README_toolbox.md) rather than modify `README.md` directly.
+>
 
 ## [Contents](#contents)
   - {contents}
