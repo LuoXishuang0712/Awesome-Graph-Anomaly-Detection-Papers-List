@@ -5,8 +5,8 @@
 >
 
 ## [Contents](#contents)
-  - CIKM-2026 NeurIPS-2026 IJCAI-2026 [TKDE-2026](#tkde-2026) [ICML-2026](#icml-2026) [ICLR-2026](#iclr-2026) [KDD-2026](#kdd-2026) [WWW-2026](#www-2026) [AAAI-2026](#aaai-2026)
-  - [TKDE-2025](#tkde-2025) [ICML-2025](#icml-2025) [ICLR-2025](#iclr-2025) [KDD-2025](#kdd-2025) [WWW-2025](#www-2025) [AAAI-2025](#aaai-2025)
+  - CIKM-2026 NeurIPS-2026 [IJCAI-2026](#ijcai-2026) [TKDE-2026](#tkde-2026) [ICML-2026](#icml-2026) [ICLR-2026](#iclr-2026) [KDD-2026](#kdd-2026) [WWW-2026](#www-2026) [AAAI-2026](#aaai-2026)
+  - [CIKM-2025](#cikm-2025) NeurIPS-2025 [IJCAI-2025](#ijcai-2025) [TKDE-2025](#tkde-2025) [ICML-2025](#icml-2025) [ICLR-2025](#iclr-2025) [KDD-2025](#kdd-2025) [WWW-2025](#www-2025) [AAAI-2025](#aaai-2025)
   - [CIKM-2023](#cikm-2023) [NeurIPS-2023](#neurips-2023) [IJCAI-2023](#ijcai-2023) [TKDE-2023](#tkde-2023) [ICLR-2023](#iclr-2023) [KDD-2023](#kdd-2023) [WWW-2023](#www-2023) [AAAI-2023](#aaai-2023)
 
 ### [IJCAI-2026](#contents)
@@ -298,6 +298,58 @@
     *Zhong Li, Yuhang Wang, Matthijs van Leeuwen*
 
 
+
+
+### [CIKM-2025](#contents)
+
+1. **Freegad: A training-free yet effective approach for graph anomaly detection** 
+
+    *Yunfeng Zhao, Yixin Liu, Shiyuan Li, Qingfeng Chen, Yu Zheng, Shirui Pan*
+
+1. **Random-Feature Graph Neural Networks with Representation Tokenized Transformer for Robust One-class Anomaly Detection** 
+
+    *Wen-Wei Tang, Cheng-Te Li*
+
+1. **Neighbor-enhanced Graph Pre-training and Prompt Learning Framework for Fraud Detection** 
+
+    *Ziyang Cheng, Jie Yang, Yixin Song, Dawei Cheng, Guang Yang, Bo Wang*
+
+
+### [IJCAI-2025](#contents)
+
+1. **HyperTrans: efficient hypergraph-driven cross-domain pattern transfer in image anomaly detection** 
+
+    *Tengyu Zhang, Deyu Zeng, Baoqiang Li, Wei Wang, Wei Liu, Zongze Wu*
+
+1. **NAAST-GNN: Neighborhood Adaptive Aggregation and Spectral Tuning for Graph Anomaly Detection** 
+
+    *Ronghui Guo, Xiaowang Zhang, Zhizhi Yu, Minghui Zou, Sai Zhang, Zhiyong Feng*
+
+1. **ABNet: Mitigating Sample Imbalance in Anomaly Detection Within Dynamic Graphs** 
+
+    *Yifan Hong, Muhammad Asif Ali, Huan Wang, Junyang Chen, Di Wang*
+
+1. **Rethinking Contrastive Learning in Graph Anomaly Detection: A Clean-View Perspective** 
+
+    *Di Jin, Jingyi Cao, Xiaobao Wang, Bingdao Feng, Dongxiao He, Longbiao Wang, Jianwu Dang*
+
+1. **Zero-shot generalist graph anomaly detection with unified neighborhood prompts** 
+
+    *Chaoxi Niu, Hezhe Qiao, Changlu Chen, Ling Chen, Guansong Pang*
+
+1. **Mitigating message imbalance in fraud detection with dual-view graph representation learning** 
+
+    *Yudan Song, Yuecen Wei, Yuhang Lu, Qingyun Sun, Minglai Shao, Li-e Wang, Chunming Hu, Xianxian Li, Xingcheng Fu*
+
+1. **Dual encoder contrastive learning with augmented views for graph anomaly detection** 
+
+    *Nannan Wu, Hongdou Dong, Wenjun Wang, Yiming Zhao*
+
+1. **Gctam: Global and contextual truncated affinity combined maximization model for unsupervised graph anomaly detection** 
+
+    *Xiong Zhang, Hong Peng, Zhenli He, Cheng Xie, Xin Jin, Hua Jiang*
+
+
 ### [TKDE-2025](#contents)
 
 1. **Context correlation discrepancy analysis for graph anomaly detection** 
@@ -491,6 +543,10 @@
 1. **A generalizable anomaly detection method in dynamic graphs** 
 
     *Xiao Yang, Xuejiao Zhao, Zhiqi Shen*
+
+
+
+
 ### [CIKM-2023](#contents)
 
 1. **Duogat: Dual time-oriented graph attention networks for accurate, efficient and explainable anomaly detection on time-series** 
