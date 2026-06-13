@@ -11,7 +11,7 @@
   
 {:NeurIPS-2026}
   
-{:IJCAI-2026}
+{ijcai-26:IJCAI-2026}
 
 {tkde-26:TKDE-2026}
   

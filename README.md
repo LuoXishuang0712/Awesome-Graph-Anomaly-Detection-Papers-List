@@ -5,9 +5,56 @@
 >
 
 ## [Contents](#contents)
-  - CIKM-2026 NeurIPS-2026 IJCAI-2026 [TKDE-2026](#tkde-2026) [ICML-2026](#icml-2026) [ICLR-2026](#iclr-2026) [KDD-2026](#kdd-2026) [WWW-2026](#www-2026) [AAAI-2026](#aaai-2026)
+  - CIKM-2026 NeurIPS-2026 [IJCAI-2026](#ijcai-2026) [TKDE-2026](#tkde-2026) [ICML-2026](#icml-2026) [ICLR-2026](#iclr-2026) [KDD-2026](#kdd-2026) [WWW-2026](#www-2026) [AAAI-2026](#aaai-2026)
   - [KDD-2025](#kdd-2025)
   - [CIKM-2023](#cikm-2023) [NeurIPS-2023](#neurips-2023) [IJCAI-2023](#ijcai-2023) [TKDE-2023](#tkde-2023) [ICLR-2023](#iclr-2023) [KDD-2023](#kdd-2023) [WWW-2023](#www-2023) [AAAI-2023](#aaai-2023)
+
+### [IJCAI-2026](#contents)
+
+1. **Can Edge Addition Be Safe and Effective? Adjacency-Centered Augmentation via Langevin and SDE Diffusion for Self-Supervised Graph Anomaly Detection**
+
+    *Haokai Gao, Menghua Jiang, Xuantao Yang, Jiale Liu, Yubin Li, Yuncheng Jiang*
+
+
+1. **Geometry-Aware Riemannian Residual Displacement for Cross-Broad-Domain Graph Anomaly Detection**
+
+    *Senyong Wang, Chen Zhu, Zihao Yao, Yaying Zhang*
+
+
+1. **Unsupervised Anomaly Detection in Dynamic Graphs via Compatibility Modeling and Boundary Learning**
+
+    *Jiachi Luo, Shameng Wen, Ziyang Qiu, Chen Jiang, Qi Huang, Yuxing Tian, Aiwen Jiang*
+
+
+1. **Unsupervised Graph-Level Anomaly Detection via Multi-granular Graph Structure Learning**
+
+    *Ge Zhang, Huimei Li, Guohao Sun, Xiu Fang, Xixun Lin, Xiaobao Wang, Pengfei Jiao, Liang Yang*
+
+
+1. **FedCIGAR: A Personalized Reconstruction Approach for Federated Graph-Level Anomaly Detection**
+
+    *Yunfeng Zhao, Yixin Liu, Qingfeng Chen, Shiyuan Li, Yue Tan, Shirui Pan*
+
+
+1. **Graph Anomaly Detection via Feature Selection with Local Topological Residuals**
+
+    *Yazheng Zhao, Nannan Wu, Haoran Yin, Yiming Zhao*
+
+
+1. **CAMERA: Adapting to Semantic Camouflage in Unsupervised Text-Attributed Graph Fraud Detection**
+
+    *Junjun Pan, Yixin Liu, Yu Zheng, Lianhua Chi, Alan Wee-Chung Liew, Shirui Pan*
+
+
+1. **Deep Reinforcement Learning Enhanced Semi-supervised Graph Neural Network for Credit Card Fraud Detection**
+
+    *Huilin He, Kun Zhu, Zewen Hu, Jie Wang, Dawei Cheng*
+
+
+1. **Temporal Motif-aware Graph Test-time Adaptation for OOD Blockchain Anomaly Detection**
+
+    *Runang He, Tongya Zheng, Huiling Peng, Yuanyu Wan, Bingde Hu, Jiawei Chen, Canghong Jin, Mingli Song, Can Wang*
+
 
 ### [TKDE-2026](#contents)
 
