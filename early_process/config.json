@@ -1,0 +1,7 @@
+{
+    "filter": {
+        "required": ["graph"],
+        "any_of": ["anomal", "fraud"]
+    },
+    "default_year": "2026"
+}
