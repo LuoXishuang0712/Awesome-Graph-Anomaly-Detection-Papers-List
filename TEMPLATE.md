@@ -25,4 +25,15 @@
   
 {aaai-26:AAAI-2026}
 
+{tkde-25:TKDE-2025}
+  
+{icml-25:ICML-2025}
+  
+{iclr-25:ICLR-2025}
+
 {kdd-25:KDD-2025}
+
+{www-25:WWW-2025}
+
+{aaai-25:AAAI-2025}
+
