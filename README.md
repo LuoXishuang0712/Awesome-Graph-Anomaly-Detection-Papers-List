@@ -7,6 +7,7 @@
 ## [Contents](#contents)
   - CIKM-2026 NeurIPS-2026 [IJCAI-2026](#ijcai-2026) [TKDE-2026](#tkde-2026) [ICML-2026](#icml-2026) [ICLR-2026](#iclr-2026) [KDD-2026](#kdd-2026) [WWW-2026](#www-2026) [AAAI-2026](#aaai-2026)
   - [CIKM-2025](#cikm-2025) NeurIPS-2025 [IJCAI-2025](#ijcai-2025) [TKDE-2025](#tkde-2025) [ICML-2025](#icml-2025) [ICLR-2025](#iclr-2025) [KDD-2025](#kdd-2025) [WWW-2025](#www-2025) [AAAI-2025](#aaai-2025)
+  - [CIKM-2024](#cikm-2024) [NeurIPS-2024](#neurips-2024) [IJCAI-2024](#ijcai-2024) [TKDE-2024](#tkde-2024) ICML-2024 [ICLR-2024](#iclr-2024) [KDD-2024](#kdd-2024) [WWW-2024](#www-2024) [AAAI-2024](#aaai-2024)
   - [CIKM-2023](#cikm-2023) [NeurIPS-2023](#neurips-2023) [IJCAI-2023](#ijcai-2023) [TKDE-2023](#tkde-2023) [ICLR-2023](#iclr-2023) [KDD-2023](#kdd-2023) [WWW-2023](#www-2023) [AAAI-2023](#aaai-2023)
 
 ### [IJCAI-2026](#contents)
@@ -543,6 +544,204 @@
 1. **A generalizable anomaly detection method in dynamic graphs** 
 
     *Xiao Yang, Xuejiao Zhao, Zhiqi Shen*
+
+
+
+
+### [CIKM-2024](#contents)
+
+1. **Graph local homophily network for anomaly detection** 
+
+    *Ronghui Guo, Minghui Zou, Sai Zhang, Xiaowang Zhang, Zhizhi Yu, Zhiyong Feng*
+
+1. **Collaborative fraud detection on large scale graph using secure multi-party computation** 
+
+    *Xin Liu, Xiaoyu Fan, Rong Ma, Kun Chen, Yi Li, Guosai Wang, Wei Xu*
+
+1. **Multivariate time-series anomaly detection based on enhancing graph attention networks with topological analysis** 
+
+    *Zhe Liu, Xiang Huang, Jingyun Zhang, Zhifeng Hao, Li Sun, Hao Peng*
+
+1. **Towards fair graph anomaly detection: problem, benchmark datasets, and evaluation** 
+
+    *Neng Kai Nigel Neo, Yeon-Chang Lee, Yiqiao Jin, Sang-Wook Kim, Srijan Kumar*
+
+1. **Graph anomaly detection with adaptive node mixup** 
+
+    *Qinghai Zhou, Yuzhong Chen, Zhe Xu, Yuhang Wu, Menghai Pan, Mahashweta Das, Hao Yang, Hanghang Tong*
+
+1. **LEX-GNN: Label-exploring graph neural network for accurate fraud detection** 
+
+    *Woochang Hyun, Insoo Lee, Bongwon Suh*
+
+1. **A structural information guided hierarchical reconstruction for graph anomaly detection** 
+
+    *Dongcheng Zou, Hao Peng, Chunyang Liu*
+
+1. **Multi-view causal graph fusion based anomaly detection in cyber-physical infrastructures** 
+
+    *Arun Vignesh Malarkkan, Dongjie Wang, Yanjie Fu*
+
+1. **Graph-theoretical approach to enhance accuracy of financial fraud detection using synthetic tabular data generation** 
+
+    *Dae-Young Park*
+
+
+### [NeurIPS-2024](#contents)
+
+1. **Generative semi-supervised graph anomaly detection** 
+
+    *Hezhe Qiao, Qingsong Wen, Xiaoli Li, Ee-Peng Lim, Guansong Pang*
+
+1. **Arc: A generalist graph anomaly detector with in-context learning** 
+
+    *Yixin Liu, Shiyuan Li, Yu Zheng, Qingfeng Chen, Chengqi Zhang, Shirui Pan*
+
+1. **Rethinking reconstruction-based graph-level anomaly detection: limitations and a simple remedy** 
+
+    *Sunwoo Kim, Soo Yong Lee, Fanchen Bu, Shinhwan Kang, Kyungho Kim, Jaemin Yoo, Kijung Shin*
+
+1. **Unigad: Unifying multi-level graph anomaly detection** 
+
+    *Yiqing Lin, Jianheng Tang, Chenyi Zi, H Vicky Zhao, Yuan Yao, Jia Li*
+
+
+### [IJCAI-2024](#contents)
+
+1. **Anomaly Subgraph Detection through High-Order Sampling Contrastive Learning.** 
+
+    *Ying Sun, Wenjun Wang, Nannan Wu, Chunlong Bao*
+
+1. **Robust heterophilic graph learning against label noise for anomaly detection** 
+
+    *Junhang Wu, Ruimin Hu, Dengshi Li, Zijun Huang, Lingfei Ren, Yilong Zang*
+
+1. **LG-FGAD: An Effective Federated Graph Anomaly Detection Framework.** 
+
+    *Jinyu Cai, Yunhe Zhang, Jicong Fan, See-Kiong Ng*
+
+1. **Safeguarding Fraud Detection from Attacks: A Robust Graph Learning Approach.** 
+
+    *Jiasheng Wu, Xin Liu, Dawei Cheng, Yi Ouyang, Xian Wu, Yefeng Zheng*
+
+1. **Effective high-order graph representation learning for credit card fraud detection** 
+
+    *Yao Zou, Dawei Cheng*
+
+1. **Implicit Anomaly Subgraph Detection (IASD) in Multi-Domain Attribute Networks.** 
+
+    *Ying Sun*
+
+
+### [TKDE-2024](#contents)
+
+1. **A survey of graph-based deep learning for anomaly detection in distributed systems** 
+
+    *Armin Danesh Pazho, Ghazal Alinezhad Noghre, Arnab A Purkayastha, Jagannadh Vempati, Otto Martin, Hamed Tabkhi*
+
+1. **Rustgraph: robust anomaly detection in dynamic graphs by jointly learning structural-temporal dependency** 
+
+    *Jianhao Guo, Siliang Tang, Juncheng Li, Kaihang Pan, Lingfei Wu*
+
+1. **Revisiting attack-caused structural distribution shift in graph anomaly detection** 
+
+    *Yuan Gao, Jinghan Li, Xiang Wang, Xiangnan He, Huamin Feng, Yongdong Zhang*
+
+1. **Spade+: A generic real-time fraud detection framework on dynamic graphs** 
+
+    *Jiaxin Jiang, Yuhang Chen, Bingsheng He, Min Chen, Jia Chen*
+
+1. **Adversarial graph neural network for multivariate time series anomaly detection** 
+
+    *Bolong Zheng, Lingfeng Ming, Kai Zeng, Mengtao Zhou, Xinyong Zhang, Tao Ye, Bin Yang, Xiaofang Zhou, Christian S Jensen*
+
+1. **Cross-domain graph level anomaly detection** 
+
+    *Zhong Li, Sheng Liang, Jiayang Shi, Matthijs van Leeuwen*
+
+
+### [ICLR-2024](#contents)
+
+1. **Consistency training with learnable data augmentation for graph anomaly detection with limited supervision** 
+
+    *Nan Chen, Zemin Liu, Bryan Hooi, Bingsheng He, Rizal Fathony, Jun Hu, Jia Chen*
+
+1. **Partitioning message passing for graph fraud detection** 
+
+    *Wei Zhuo, Zemin Liu, Bryan Hooi, Bingsheng He, Guang Tan, Rizal Fathony, Jia Chen*
+
+1. **Rayleigh quotient graph neural networks for graph-level anomaly detection** 
+
+    *Xiangyu Dong, Xingyi Zhang, Sibo Wang*
+
+1. **Boosting graph anomaly detection with adaptive message passing** 
+
+    *Jingyan Chen, Guanghui Zhu, Chunfeng Yuan, Yihua Huang*
+
+
+### [KDD-2024](#contents)
+
+1. **Graph anomaly detection with few labels: A data-centric approach** 
+
+    *Xiaoxiao Ma, Ruikun Li, Fanzhen Liu, Kaize Ding, Jian Yang, Jia Wu*
+
+1. **Motif-consistent counterfactuals with adversarial refinement for graph-level anomaly detection** 
+
+    *Chunjing Xiao, Shikang Pang, Wenxin Tai, Yanlong Huang, Goce Trajcevski, Fan Zhou*
+
+1. **Sefraud: Graph-based self-explainable fraud detection via interpretative mask learning** 
+
+    *Kaidi Li, Tianmeng Yang, Min Zhou, Jiahao Meng, Shendi Wang, Yihui Wu, Boshuai Tan, Hu Song, Lujia Pan, Fan Yu, Zhenli Sheng, Yunhai Tong*
+
+
+### [WWW-2024](#contents)
+
+1. **Friend or foe? mining suspicious behavior via graph capsule infomax detector against fraudsters** 
+
+    *Xiangping Zheng, Bo Wu, Xun Liang, Wei Li*
+
+1. **Graph anomaly detection with bi-level optimization** 
+
+    *Yuan Gao, Junfeng Fang, Yongduo Sui, Yangyang Li, Xiang Wang, Huamin Feng, Yongdong Zhang*
+
+1. **Detecting Illicit Food Factories from Chemical Declaration Data via Graph-aware Self-supervised Contrastive Anomaly Ranking** 
+
+    *Sheng-Fang Yang, Cheng-Te Li*
+
+
+### [AAAI-2024](#contents)
+
+1. **Ada-gad: Anomaly-denoised autoencoders for graph anomaly detection** 
+
+    *Junwei He, Qianqian Xu, Yangbangyan Jiang, Zitai Wang, Qingming Huang*
+
+1. **Revisiting graph-based fraud detection in sight of heterophily and spectrum** 
+
+    *Fan Xu, Nan Wang, Hao Wu, Xuezhi Wen, Xibin Zhao, Hai Wan*
+
+1. **DiG-In-GNN: Discriminative feature guided GNN-based fraud detector against inconsistencies in multi-relation fraud graph** 
+
+    *Jinghui Zhang, Zhengjia Xu, Dingyang Lv, Zhan Shi, Dian Shen, Jiahui Jin, Fang Dong*
+
+1. **Barely supervised learning for graph-based fraud detection** 
+
+    *Hang Yu, Zhengyang Liu, Xiangfeng Luo*
+
+1. **Multi-scale dynamic graph learning for time series anomaly detection (student abstract)** 
+
+    *Yixuan Jin, Yutao Wei, Zhangtao Cheng, Wenxin Tai, Chunjing Xiao, Ting Zhong*
+
+1. **Graph anomaly detection with diffusion model-based graph enhancement (student abstract)** 
+
+    *Shikang Pang, Chunjing Xiao, Wenxin Tai, Zhangtao Cheng, Fan Zhou*
+
+1. **Graph anomaly detection via prototype-aware label propagation (student abstract)** 
+
+    *Hui Tang, Xun Liang, Sensen Zhang*
+
+1. **Counterfactual graph learning for anomaly detection with feature disentanglement and generation (student abstract)** 
+
+    *Yutao Wei, Wenzheng Shu, Zhangtao Cheng, Wenxin Tai, Chunjing Xiao, Ting Zhong*
 
 
 

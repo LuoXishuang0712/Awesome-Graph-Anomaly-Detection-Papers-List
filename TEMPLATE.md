@@ -47,6 +47,26 @@
 
 
 
+{cikm-24:CIKM-2024}
+
+{nips-24:NeurIPS-2024}
+
+{ijcai-24:IJCAI-2024}
+
+{tkde-24:TKDE-2024}
+
+{:ICML-2024}
+
+{iclr-24:ICLR-2024}
+
+{kdd-24:KDD-2024}
+
+{www-24:WWW-2024}
+
+{aaai-24:AAAI-2024}
+
+
+
 {cikm-23:CIKM-2023}
 
 {nips-23:NeurIPS-2023}
